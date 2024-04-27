@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: management
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/petstore
+    username: petadmin
+    password: ${DB_PASSWORD}
+    driverClassName: org.postgresql.Driver
